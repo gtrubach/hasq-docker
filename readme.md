@@ -8,12 +8,12 @@ HASQ image is based on Alpine Linux image and takes around 13 MB of space. It co
 
 To build the image run `build.sh` in shell.
 
-## Use pre-builded image
+## Use pre-built image
 
-It's possible to use pre-builded image. To do it download required release from Releases page and run in the shell
+It's possible to use pre-built image. To do it download required release from releases page and run in the shell
 
 ```shell
-docker load < ./release/hasq-0.4.2.tar.gz
+docker load < hasq-0.4.2.tar.gz
 ```
 
 ## Run HASQ
